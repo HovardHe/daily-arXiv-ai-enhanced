@@ -1,4 +1,10 @@
-Please analyze the following abstract of papers. 
-
-Content:
+Please read the following paper abstract and provide a summary in {language}.
+The abstract is:
+---
 {content}
+---
+
+Your response MUST be a single, valid JSON object and nothing else.
+The JSON object must contain the following keys: "tldr", "motivation", "method", "result", "conclusion".
+Each key should have a string value summarizing that aspect of the paper.
+IMPORTANT: All backslashes `\` inside the JSON strings MUST be escaped as `\\`. For example, `$\lambda$` must be written as `$\\lambda$`.
